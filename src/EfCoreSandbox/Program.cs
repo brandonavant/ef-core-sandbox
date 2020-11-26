@@ -9,7 +9,7 @@ namespace EfCoreSandbox
         static void Main(string[] args)
         {
             int rowsAffected;
-            var accountId = "100002000012012030216241564700030007";
+            var accountId = "100002000";
 
             using(var context = new SandboxContext())
             {
