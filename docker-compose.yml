@@ -1,0 +1,9 @@
+version: 3.8
+
+services:
+  webapi:
+    build: ./
+  sql-server:
+    image:
+    ports:
+      - 1433:1433
