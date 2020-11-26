@@ -1,0 +1,10 @@
+CREATE DATABASE Sandbox;
+GO
+
+CREATE TABLE Accounts
+(
+  Id DECIMAL(38,0) PRIMARY KEY,
+  FirstName VARCHAR(16),
+  LastName VARCHAR(16)
+)
+GO
